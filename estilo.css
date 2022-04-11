@@ -1,0 +1,349 @@
+body {
+    
+    margin: 0%;
+  
+}
+
+.barra {
+    border: 3px solid rgba(128, 0, 0, 0.986);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #eead2d; 
+    height: 50px; 
+    display: flex;
+    
+}
+
+.logo .foto{
+    max-width: 90px;
+    max-height: 50px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.barra .menu {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nome {
+    height: 50px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.lista {
+    width: 1040px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 1000px;
+    
+}
+
+.banner {
+    height: 603px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.imagem  {
+    background-color: rgb(192, 189, 189);
+    background-image: url(../abelha/img/api.jpg);
+    display: flex;
+    height: 600px;
+    width: 1350px; 
+    flex-direction: column;
+    
+}
+
+ p{
+height: 50px;
+width: 600px;
+display: flex;
+font-size: 40px;
+color:black;
+justify-content: center;
+font-family:cursive
+
+}
+
+.centro {
+    display: flex;
+    justify-content:center ;
+    width: 750px;
+    height: 500px;
+   
+}
+
+.imagem h1 {    
+    height: 200px;
+    width: 500px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: #eba10f;
+
+    
+}
+
+.ordem {
+
+    display: flex;
+    align-items: flex-end;
+    height: 300px;
+}
+
+.pote {
+  
+    display: flex;
+    max-width: 100px;
+    max-height: 100px;
+    height:700px;
+    background-color: rgb(173, 169, 169);
+}
+
+#borda {
+    border: 2px solid black;
+}
+
+.valores{
+    height: 500px;
+    width: 1345px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+
+ .missao {
+    width: 250px;
+    
+
+}
+
+.valor {
+    width: 250px;
+    align-content: center;
+}
+
+.visao{
+    width: 250px;
+}
+
+
+.missao p{
+    width: 250px;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+.planejamento {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    height: 80px;
+    font-size: 18px;
+    display: flex;
+   padding-left: 30px;
+}
+
+
+.valor p {
+    width: 250px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.categoria {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.visao p{
+    width: 250px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.trofeu{
+    font-family:'Times New Roman', Times, serif;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.equipe{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+#trabalho{
+    max-width: 2000px;
+    max-height: 300px;
+    width: 80000px;
+}
+
+.contato {
+    border: 2px solid black;
+    height: 300px;
+    background-color: #eead2d;
+    display: flex;
+    justify-content: space-between;
+}
+
+.informaçao{
+    width: 500px;
+    height: 300px;
+}
+
+.formulario{
+    height: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.informaçao p{
+    width: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.endereço{
+    height: 80px;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.cliente{
+    display: flex;
+    height: 295px;
+    width: 300px;
+    flex-direction: column;
+    background-color: #e9912cf6;
+    border-radius: 10px;
+    justify-content: center;
+    align-content: space-around;
+    border: 2px solid saddlebrown;
+}   
+
+.cliente p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    align-items: flex-end;
+    font-weight: bold;
+}
+
+#barra{
+    height: 50px;
+    border: 2px solid saddlebrown;
+    border-radius: 4px;
+}
+
+.bnt{
+    display: flex;
+    justify-content: center;
+}
+
+.botao{
+    width: 60px;
+    font-family: monospace;
+    font-weight: bold;
+    background-color: rgba(128, 0, 0, 0.514);
+}
+
+.footer{
+    background-color: #eba10f;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    border: 2px solid black;
+    
+}
+
+.footer p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.cadastro{
+    border: 2px solid rgba(128, 0, 0, 0.527);
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e2b55a;
+    border-radius: 10px;
+}
+
+.cadastro p{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    height: 200px;
+    align-items: flex-end;
+
+}
+
+.organizar{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    align-items: center;
+} 
+
+#caixa{
+    width: 200px;
+    border: 2px solid saddlebrown;
+    border-radius: 4px;
+}
+
+.btn2{
+    border: 2px solid maroon;
+    border-radius: 5px;
+}
+
+.ctitulo{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+#cdt{
+    text-decoration: none;
+    color: black;
+}
+
+#clique{
+    background-color:saddlebrown;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+#inicio{
+    text-decoration: none;
+    color: black;
+}
